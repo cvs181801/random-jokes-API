@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+    background-color: powderblue;
     font-family: 'Itim', cursive;
     font-size: 1.5rem;
     padding: 10px 100px 10px 10px;
@@ -13,7 +13,7 @@ h1::before {
     position: absolute;
     height: 6px;
     width: 100%;
-    background: fuchsia;
+    background: limegreen;
     bottom: 4px;
     z-index: -1;
 }
