@@ -13,14 +13,14 @@ h1::before {
     position: absolute;
     height: 6px;
     width: 100%;
-    background: limegreen;
+    background: mediumseagreen;
     bottom: 4px;
     z-index: -1;
 }
 
 button {
     margin-bottom: 20px;
-    background: tomato;
+    background: orange;
     border-radius: 12px;
     font-family: inherit;
     font-size: inherit;
@@ -44,7 +44,7 @@ button {
     border: 3px solid black;
     background: white;
     margin-bottom: 60px;
-    width: 90px;
+    width: 200px;
 }
 
 .bubble::before {
@@ -61,7 +61,7 @@ button {
 }
 #new-joke-button {
     margin-bottom: 20px;
-    background: orange;
+    background: tomato;
     border-radius: 12px;
     font-family: inherit;
     font-size: inherit;
