@@ -9,11 +9,11 @@ h1 {
     position: relative;
 }
 h1:before {
-    content: blank;
+    content: '';
     position: absoute;
     height: 6px;
     width: 100%;
-    background-color: fuchsia;
+    background: fuchsia;
     bottom: 4px;
     z-index: -1;
 
