@@ -38,6 +38,10 @@ button {
 
 .bubble {
     display: inline-block;
+    position: relative;
+    padding: 30px 40px;
+    border-radius: 10px;
+    border: 3pm solid white;
 }
 
 #new-joke-button {
