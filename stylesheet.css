@@ -42,6 +42,7 @@ button {
     padding: 30px 40px;
     border-radius: 10px;
     border: 3pm solid white;
+    margin: 60px;
 }
 
 #new-joke-button {
