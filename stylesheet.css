@@ -23,5 +23,19 @@ button {
     background: tomato;
     border-radius: 12px;
     font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#new-joke-button {
+    margin-bottom: 20px;
+    background: orange;
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: inherit;
     cursor: pointer;
 }
