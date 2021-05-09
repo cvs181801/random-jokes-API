@@ -14,5 +14,7 @@ h1::before {
     height: 6px;
     width: 100%;
     background-color: fuchsia;
+    bottom: 4px;
+    z-index: -1;
 
 }
