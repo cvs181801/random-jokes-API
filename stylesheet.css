@@ -8,7 +8,7 @@ body {
 h1 {
     position: relative;
 }
-h1:before {
+h1::before {
     content: '';
     position: absoute;
     height: 6px;
