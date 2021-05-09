@@ -1,5 +1,5 @@
 body {
-    background-color: powderblue;
+    background-color: paleturquoise;
     font-family: 'Itim', cursive;
     font-size: 1.5rem;
     padding: 10px 100px 10px 10px;
@@ -29,6 +29,15 @@ button {
 
 .hidden {
     display: none;
+}
+
+.random-jokes {
+    display: flex;
+    flex-direction: column;
+}
+
+.bubble {
+    display: inline-block;
 }
 
 #new-joke-button {
