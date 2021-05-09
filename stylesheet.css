@@ -10,11 +10,18 @@ h1 {
 }
 h1::before {
     content: '';
-    position: absoute;
+    position: absolute;
     height: 6px;
     width: 100%;
     background: fuchsia;
     bottom: 4px;
     z-index: -1;
+}
 
+button {
+    margin-bottom: 20px;
+    background: tomato;
+    border-radius: 12px;
+    font-family: inherit;
+    cursor: pointer;
 }
