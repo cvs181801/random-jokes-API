@@ -44,6 +44,7 @@ button {
     border: 3px solid black;
     background: white;
     margin-bottom: 60px;
+    width: 60px;
 }
 
 .bubble::before {
