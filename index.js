@@ -30,6 +30,9 @@ async function getJoke() {
          const punchlineDivBubble = document.createElement("div");
          punchlineDivBubble.innerText = `${punchline}`;
          punchlineDiv.appendChild(punchlineDivBubble);
+
+          punchlineBtn.classList.toggle('hidden');
+          newJokeBtn.classList.toggle('hidden');
     })
 
 }
