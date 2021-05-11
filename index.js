@@ -5,7 +5,7 @@ const punchlineDiv = document.getElementById('punchline');
 const punchlineBtn = document.getElementById('punchline-button');
 const newJokeBtn = document.getElementById('new-joke-button');
 
-//create a variable to store the punchline so it can be reassigned as we go
+//create a variable to store the punchline so it can be reassigned as we go.
 let punchline;
 
 //make the 'get punchline' button work
@@ -47,4 +47,4 @@ async function getJoke() {
 
 }
 
-    getJoke();
+    //getJoke();
