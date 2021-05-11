@@ -18,6 +18,16 @@ function getPunchline() {
     punchlineBtn.classList.toggle('hidden');
     newJokeBtn.classList.toggle('hidden');
 }
+
+//make the new joke button work
+
+newJokeBtn.addEventListener('click', getNewJoke);
+
+function getNewJoke() {
+    punchlineDiv.innerHTML = '';
+    getJoke();
+}
+
 //get the joke data from the API
 
 async function getJoke() {
