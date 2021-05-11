@@ -23,6 +23,7 @@ function getPunchline() {
 
 newJokeBtn.addEventListener('click', getJoke);
 
+
 //get the joke data from the API
 
 async function getJoke() {
@@ -46,4 +47,4 @@ async function getJoke() {
 
 }
 
-    //getJoke();
+    
