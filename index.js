@@ -21,12 +21,7 @@ function getPunchline() {
 
 //make the new joke button work
 
-newJokeBtn.addEventListener('click', getNewJoke);
-
-function getNewJoke() {
-    punchlineDiv.innerHTML = '';
-    getJoke();
-}
+newJokeBtn.addEventListener('click', getJoke);
 
 //get the joke data from the API
 
@@ -41,8 +36,12 @@ async function getJoke() {
          punchlineDivBubble.innerText = `${punchline}`;
          punchlineDiv.appendChild(punchlineDivBubble);
 
-          punchlineBtn.classList.toggle('hidden');
-          newJokeBtn.classList.toggle('hidden');
+          punchlineDiv.innerHTML = '';
+          punchlineDiv.classList.remove('bubble');
+    
+        punchlineBtn.classList.toggle('hidden');
+        newJokeBtn.classList.toggle('hidden');
+
     })
 
 }
